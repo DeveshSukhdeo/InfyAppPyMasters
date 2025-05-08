@@ -2,3 +2,20 @@ body {
   background-color: lightblue;
 }
 
+#top-header{
+  text-align: center;
+  height: 60%;
+}
+#title1{
+  float: left;
+  padding: none;
+  margin: none; 
+  height: 70px;
+  width: 30%;
+}
+#menu{
+  float: right;
+  width: 70%;
+  height: 100%; 
+  margin: none;
+}
