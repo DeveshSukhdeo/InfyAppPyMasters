@@ -1,7 +1,19 @@
-body {
-  background-color: lightblue;
+body{
+  height: 100%; 
+  text-align: center; 
+  background-color: black; 
+  background-size: cover; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+ol{
+  margin-top: 0; 
+  padding: 0; 
+}
+
+header{
+  overflow: hidden; 
+}
 #top-header{
   text-align: center;
   height: 60%;
@@ -13,9 +25,43 @@ body {
   height: 70px;
   width: 30%;
 }
+
 #menu{
   float: right;
   width: 70%;
   height: 100%; 
   margin: none;
+}
+
+#menu ul{
+  text-align: center;
+  float: right;
+  margin: none;
+  background: rgba(0,0,0,0);
+}
+
+#menu li{
+  display: inline-block;
+  padding: none;
+  margin: none;
+}
+
+#menu li a {
+  display: inline-block; 
+  padding: 0em 1.5em;
+  text-decoration: none;
+  font-weight: bold; 
+  line-height: 35px;
+  text-transform: uppercase; 
+  color: white; 
+}
+
+#menu li:hover{ 
+  background-color: #8372fd;
+  color: black;
+  border-left: 3px solid white;
+  border-right: 3px solid white; 
+}
+#menu li a:hover{
+  color:black; 
 }
