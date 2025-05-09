@@ -4,7 +4,7 @@ body{
   background-color: white; 
   background-size: cover; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-color: white;
+  font-color: black;
 }
 h1 {
   background-color: black;
@@ -41,7 +41,7 @@ header{
   text-align: center;
   float: right;
   margin: none;
-  background: rgba(0,0,0,0);
+  background: rgba(255,255,255,1);
 }
 
 #menu li{
