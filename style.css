@@ -1,10 +1,10 @@
 body{
   height: 100%; 
   text-align: center; 
-  background-color: white; 
+  background-color: black; 
   background-size: cover; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-color: black;
+  font-color: white;
 }
 h1 {
   background-color: white;
