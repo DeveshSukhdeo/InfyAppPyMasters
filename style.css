@@ -7,7 +7,7 @@ body{
   font-color: black;
 }
 h1 {
-  background-color: white;
+  background-color: #F5F4FB;
   color: black;
 }
 ol{
@@ -41,7 +41,7 @@ header{
   text-align: center;
   float: right;
   margin: none;
-  background: rgba(255,255,255,1);
+  background: #F5F4FB;
 }
 
 #menu li{
@@ -61,7 +61,7 @@ header{
 }
 
 #menu li:hover{ 
-  background-color: white;
+  background-color: #F5F4FB;
   color: black;
   border-left: 3px solid white;
   border-right: 3px solid white; 
