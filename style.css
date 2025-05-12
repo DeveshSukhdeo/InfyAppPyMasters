@@ -7,14 +7,20 @@ body{
   font-color: black;
 }
 h1 {
-  background-color: #F5F4FB;
   color: black;
+  font-size: 50px;
 }
+h2 {
+  font-size: 30px;
+}
+p{
+  font-size: 18px;
+}
+
 ol{
   margin-top: 0; 
   padding: 0; 
 }
-
 header{
   overflow: hidden; 
 }
@@ -22,34 +28,23 @@ header{
   text-align: center;
   height: 60%;
 }
-#title1{
-  float: left;
-  padding: none;
-  margin: none; 
-  height: 70px;
-  width: 30%;
-}
-
 #menu{
   float: right;
   width: 70%;
   height: 100%; 
   margin: none;
 }
-
 #menu ul{
   text-align: center;
   float: right;
   margin: none;
   background: #F5F4FB;
 }
-
 #menu li{
   display: inline-block;
   padding: none;
   margin: none;
 }
-
 #menu li a {
   display: inline-block; 
   padding: 0em 1.5em;
@@ -59,13 +54,17 @@ header{
   text-transform: uppercase; 
   color: black; 
 }
-
 #menu li:hover{ 
-  background-color: #F5F4FB;
+  background-color: #390CFF;
   color: black;
-  border-left: 3px solid white;
-  border-right: 3px solid white; 
+  border-left: 4px solid black;
+  border-right: 4px solid black; 
 }
 #menu li a:hover{
   color:white; 
+}
+
+.info1{
+  padding-left: 100px;
+  padding-right: 100px;
 }
