@@ -87,7 +87,8 @@ header {
 }
 
 .info1 {
-  padding: 2rem 1rem;
+  padding-top: 0px;
+  /*padding: 2rem 1rem;*/
   max-width: 1200px;
   margin: 0 auto;
 }
